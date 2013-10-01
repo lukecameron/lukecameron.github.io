@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="" href="">
+    <information>
+        <title>Boxworld</title>
+        <vendor>Boxworld Productions</vendor>
+    </information>
+    <resources>
+        <!-- Application Resources -->
+        <j2se version="1.6+"
+            href="http://java.sun.com/products/autodl/j2se" />
+        <jar href="boxworld.jar" main="true" />
+
+    </resources>
+    <applet-desc 
+         name="Dynamic Tree Demo Applet"
+         main-class="boxworld"
+         width="300"
+         height="300">
+     </applet-desc>
+</jnlp> 
